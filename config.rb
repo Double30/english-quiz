@@ -40,5 +40,6 @@ end
 
 activate :blog do |blog|
   # set options on blog
-  # blog.layout = "blog_layout"
+  blog.layout = "quiz"
+  blog.prefix = 'quiz'
 end

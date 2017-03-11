@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_article.data.title || "Middleman" %></title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <%= stylesheet_link_tag "site" %>
+    <%= stylesheet_link_tag "quiz" %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <h1><%= current_article.data.title %></h1>
+
+    <%= yield %>
+
+    <div class="quizFooter">
+      <button id="check-answer">看答案啦！！！</button>
+    </div>
+    <%= javascript_include_tag "site" %>
+    <%= javascript_include_tag "quiz" %>
+  </body>
+</html>

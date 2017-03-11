@@ -43,3 +43,6 @@ activate :blog do |blog|
   blog.layout = "quiz"
   blog.prefix = 'quiz'
 end
+
+activate :relative_assets
+set :relative_links, true

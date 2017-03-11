@@ -37,3 +37,8 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+activate :blog do |blog|
+  # set options on blog
+  # blog.layout = "blog_layout"
+end

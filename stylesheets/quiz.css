@@ -1,0 +1,52 @@
+.field {
+  position: relative; }
+  .field input {
+    padding: 0 0.5em;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    outline-width: 2px;
+    outline-color: rgba(0, 0, 0, 0.5); }
+
+.field.is-correct input {
+  outline: 2px solid #56b225;
+  outline-offset: 0; }
+
+.field.is-incorrect input {
+  outline: 2px solid #ef5609;
+  outline-offset: 0; }
+.field.is-incorrect .hint {
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: absolute;
+  top: -1.4em;
+  right: 0;
+  padding: 0 4px;
+  border-radius: 2px;
+  background-color: #FEFEFE;
+  box-shadow: 1px 1px 1px 0 #999; }
+.field.is-incorrect:hover .hint {
+  opacity: 1; }
+
+.quizFooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 60px;
+  text-align: center; }
+  .quizFooter > button {
+    border: 2px solid #777;
+    outline: none;
+    line-height: 1.6em;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer; }
+    .quizFooter > button:hover {
+      background-color: rgba(255, 255, 255, 0.7); }
+    .quizFooter > button:active {
+      background-color: rgba(255, 255, 255, 0.9); }
+
+p, ul, ol {
+  text-align: left; }

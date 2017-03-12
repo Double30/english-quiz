@@ -4,7 +4,7 @@ date: 2017-03-11 10:08 UTC
 tags:
 ---
 
-## Past Progressive
+## Past Progressive v.s. Simple Past
 
 1. I (call) `called` Roger at nine last night, but he (be, not) `was not` at home. He (study) 'was studying' at the library.
 
@@ -25,4 +25,14 @@ tags:
 
 ## Present Perfect vs Present Perfect Progressive
 
-1. I'm trying to study. I 
+Compelete the sentences. Use the verb in italics in the first sentence of each item to complete the remaining sentence(s). Use the present perfect or the present perfect progressive. In some sentences, either verb form is correct.
+
+1. _I'm trying_ to study. I `have been trying` to study *for* the last hour, but something always seems to interrupt me. I think I'd better go to the library.
+
+2. Joe _has_ an old bicycle. He `has had` the same bicycle *for* twenty years.
+
+3. Matt _works_ at the ABC Company. He `has worked | has been working` there *since* 2005. 
+
+4. Toshi _is waiting_ for his friend. He `has been waiting` for her *since* five o'clock. She's late for their date.
+
+5. I _like_ cowboy movies. I `have liked` cowboy movies ever *since* I was a child.
